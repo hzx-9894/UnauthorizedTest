@@ -4,10 +4,15 @@
 
 请将代码内容放在**D:IDOR**下
 下载好conda以后，命令行运行以下内容
+
 conda create --name idor python=3.8
+
 D:
+
 cd D:\IDOR
+
 conda activate idor
+
 mitmdump -s test.py -p 8080
 
 
